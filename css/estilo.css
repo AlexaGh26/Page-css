@@ -1,0 +1,395 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    height: 100vh;
+     }
+.titulo_prin{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: darkslategrey;
+}
+.imagen_nav{
+    width: 74.19px;
+    height: 26.37px;
+}
+nav{
+    align-items: center;
+    display: flex;
+    background-color:#7ACC2D;
+    justify-content: space-between;
+    padding-left: 30px;
+     padding-right: 50px;
+     height: 60px;
+     -webkit-box-shadow: -2px 5px 17px -8px rgba(45,189,62,1);
+     -moz-box-shadow: -2px 5px 17px -8px rgba(45,189,62,1);
+     box-shadow: -2px 5px 17px -8px rgba(45,189,62,1);
+    }
+nav ul{
+    display: flex;
+    list-style: none;   
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a:hover {
+    color: white;
+}
+nav ul li a {
+    font-family: "Open Sans";
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.imagen_fondo{
+    width: 100%;
+    height: 80%;
+}
+
+.caja_productos{
+    background-image: url("../imagenes/barraFondo.png");
+    background-position: center top;
+    background-size: cover;
+    height: 344.84px;
+    margin-top: 180px;
+}
+.contenedor_productos{
+    display: flex;
+    width: 536px;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    margin: auto;
+}
+.producto{
+    width: 239px;
+    height: 275.55px;
+    margin: 8px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(219,212,219,1);
+-moz-box-shadow: 5px 5px 5px -2px rgba(219,212,219,1);
+box-shadow: 5px 5px 5px -2px rgba(219,212,219,1);
+    background-color: white;
+}
+.primera_seccion{
+    margin: auto;
+    width: 600px;
+    height: 100px;
+    padding-top: 20px;
+}
+.imagen_product1{
+    width: 134px;
+    height: 134px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.imagen_product2{
+    width: 110px;
+    height: 110px;
+    padding: 12px 52px 12px 50px;
+    justify-content: center;
+}
+.parrafo_productos{
+    font-size: 12px;
+    margin: 0;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-style: normal;
+    color: rgb(59, 59, 59);
+    width: 220px;
+    height: 40px;
+    position: relative;
+    left: -10px;
+}
+.t_img_proct, .t_pag_prodt1{
+    margin: 0;
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.nombre_men{
+    margin: 0 0 2px 5px;
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.t_img_noti{
+    margin: 0;
+    width: 170px;
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-left: -10px;
+}
+.estilo_loquiero {
+    width: 220px;
+    height: 40px;
+    margin-left: -1px;
+    margin-top: 2px;
+    padding: 0;    
+    border: 0;
+    background-color: #7ACC2D;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    left: -10px;
+}
+.estilo_loquiero:hover{
+    -webkit-box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+    -moz-box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+    box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+}
+.caja_noticias{
+    display: flex;
+    height: 500px;
+    margin: 0;
+    padding: 0%;
+}
+.parrafo_noticias{
+    font-size: 12px;
+    margin: 0;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-style: normal;
+    color: rgb(59, 59, 59);
+    width: 154px;
+    height: 53px;
+    position: relative;
+    left: -10px;
+}
+.contenedor_noticias{
+    display: flex;
+    justify-content: center;
+     margin: auto;
+     width: 1000px;
+ }
+ .noticia{
+    width: 150px;
+    height: 300px;
+    margin: 110px 90px 90px 90px;
+}
+.imagen_noti1{
+    margin: 10px;
+    width: 134px;
+    height: 113px;
+}
+.imagen_noti2{
+    margin: 10px;
+    width: 112px;
+    height: 103px;
+}
+.imagen_noti3{
+    margin: 10px;
+    width: 104px;
+    height: 104px;
+}
+.contenedor_menciones{
+    display: flex;
+    justify-content: center;
+     margin: auto;
+}
+.caja_palabra_menciones{
+    display: flex;
+    justify-content: center;
+    height: 47px;
+}
+.caja_menciones{
+    display: flex;
+    height: 270px;
+}
+.imagen_men{
+    width: 234px;
+    height: 104.55px;
+}
+.menciones{
+    margin: 5px;
+    width: 234px;
+    height: 186.55px;
+    -webkit-box-shadow: 0px 5px 5px -2px rgba(173,168,173,1);
+    -moz-box-shadow: 0px 5px 5px -2px rgba(173,168,173,1);
+    box-shadow: 0px 5px 5px -2px rgba(173,168,173,1);
+}
+.palabra_menciones{
+    color:#313337;
+    font-family:"Open Sans";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.frase_menciones{
+    margin: 0 0 0 5px;
+    width: 220px;
+    height: 38px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    }
+ .footer{
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #313337;
+    color: white;
+    position: relative;
+    bottom: 0px;
+}
+.footer:hover{
+    -webkit-box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+    -moz-box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+    box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+}
+.palabra_pag_productos{
+    padding-left: 149px;
+    padding-top: 90px;
+    color: #313337;
+    font-family:"Open Sans";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    }
+.img_pag_productos_1{
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 230px;
+}
+.img_pag_productos_2{
+        margin: 0;
+        padding: 0;
+        width: 272px;
+        height: 248px;
+}
+.img_pag_productos_3{
+        margin: 0;
+        padding: 0;
+        width: 217px;
+        height: 207px;
+}
+.texto_producto1{
+    margin: 77px 0 0 85px;
+    width: 575px;
+    height: 70px;
+}
+.texto_producto2{
+    margin: 77px 0 0 30px;
+    width: 575px;
+    height: 70px;
+}
+.pagina_produc1_primeraparte{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 0 128px 0 232px;
+}
+.parrafo_pag_producto1{
+    margin: 05px 0 0 0;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+.pagina_produc1_segundaparte, .pagina_produc1_terceraparte{
+    margin-top: 5px;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 0 128px 0 232px;
+}
+p{
+    margin: 0;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+}
+input{
+    width: 303px;
+    height: 35px;
+}
+.formulario_producto1{
+    margin: auto;
+    width: 582px;
+    display: flex;
+    
+}
+.present_prod_1, .present_prod_2{
+    width: 224px;
+    height: 233.55px;
+    padding-left: 15px;
+    -webkit-box-shadow: -2px 2px 8px 1px rgba(207,196,207,1);
+-moz-box-shadow: -2px 2px 8px 1px rgba(207,196,207,1);
+box-shadow: -2px 2px 8px 1px rgba(207,196,207,1);  
+}
+.form_producto1, .form_producto2{
+    padding-top: 150px;
+    height: 500px;
+}
+.estilo_confirmar_pago {
+    width: 305px;
+    height: 40px;
+    margin-left: 11px;
+    margin-top: 11px;
+    padding: 0;    
+    border: 0;
+    background-color: #7ACC2D;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    left: -10px;
+}
+.estilo_confirmar_pago:hover{
+    -webkit-box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+    -moz-box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+    box-shadow: 0px 1px 9px 2px rgba(34,85,161,1);
+}
+.formulario_pag_p1, .formulario_pag_p2{
+    width: 336.18px;
+    height: 266.06px;
+    margin-left: 22px;
+    padding-left: 10px; 
+    -webkit-box-shadow: -2px 2px 8px 1px rgba(207,196,207,1);
+-moz-box-shadow: -2px 2px 8px 1px rgba(207,196,207,1);
+box-shadow: -2px 2px 8px 1px rgba(207,196,207,1);
+}
+.imagen_product1_pago{
+    padding-left: 30px;
+    width: 134px;
+    height: 134px;
+}
+.imagen_product2_pago{
+    padding-top: 14px;
+    padding-left: 42px;
+    width: 120px;
+    height: 120px;
+}
+.estilo_boton_regresar{
+    width: 305px;
+    height: 40px;
+    padding: 0;    
+    border: 0;
+    background-color: #7ACC2D;
+    color: white;
+    font-size: 17px;
+}
+.div_estilo_boton_regresar{
+    margin: 10px auto auto auto;
+    width: 305px;
+}
+.estilo_div_princi_bot_regresar{
+    margin: auto;
+}
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}

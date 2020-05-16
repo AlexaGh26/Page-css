@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <title>html y css</title>
+</head>
+
+<body>
+    <!--inicio Barra-->
+    <!--Inicio Pagina de productos-->
+    <nav id="barra_navegacion">
+        <img class="imagen_nav" src="imagenes/Logo_final.png">
+        <ul>
+            <li><a href="#"> Faqs</a></li a>
+            <li><a href="#"  id="boton_barra_productos" onclick="click_bt('boton_barra_productos')"  > Productos y descripción</li></a>
+        </ul>
+    </nav>
+    <!--Inicio Pagina de productos-->
+    <!--fin Barra-->
+    <div class="div_pagina_de_productos" id="todo_pagina_productos" style="display: none;" >
+        <p class="palabra_pag_productos">Productos</p>
+        <!--primera parte de la pagina-->
+        <section class="pagina_produc1_primeraparte">
+            <img class="img_pag_productos_1" src="imagenes/ben1.png" alt="">
+            <article class="texto_producto1">
+                <p class="t_pag_prodt1">Producto 1</p>
+                <p class="parrafo_pag_producto1">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    Miles de productos hay en el mercado, pero nada como caja con gaticos.</p>
+            </article>
+        </section>
+        <!--segunda parte de la pagina-->
+        <section class="pagina_produc1_segundaparte">
+            <article class="texto_producto2">
+                <p class="t_pag_prodt1">Producto 2</p>
+                <p class="parrafo_pag_producto1">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    Miles de productos hay en el mercado, pero nada como caja con gaticos.</p>
+            </article>
+            <img class="img_pag_productos_2" src="imagenes/ben2.png" alt="">
+        </section>
+        <!--tercera parte de la pagina-->
+        <section class="pagina_produc1_terceraparte">
+            <img class="img_pag_productos_3" src="imagenes/ben3.png" alt="">
+            <article class="texto_producto1">
+                <p class="t_pag_prodt1">Producto 3</p>
+                <p class="parrafo_pag_producto1">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    Miles de productos hay en el mercado, pero nada como caja con gaticos.</p>
+            </article>
+        </section>
+        <section class="estilo_div_princi_bot_regresar">
+            <article class="div_estilo_boton_regresar">
+                <button class="estilo_boton_regresar" id="boton_regresar_p1" onclick="click_bt('boton_regresar_p1')"
+                >Volver a inicio</button>
+            </article>
+            </section><br>
+    </div>
+    <div id="form_producto1" class="form_producto1" style="display: none;" >
+        <section  class="formulario_producto1">
+            <article class="present_prod_1">
+                <img class="imagen_product1_pago" src="imagenes/ben1.png" alt="">
+                <p class="t_img_proct">Producto 1</p><br>
+                <p class="parrafo_productos">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                </p>
+            </article>
+            <article class="formulario_pag_p1">
+                <p>Nombre</p>
+                <input type="text">
+                <p>Mail</p><br>
+                <input type="text">
+                <p>Teléfono</p>
+                <input type="text"><br>
+                <button class="estilo_confirmar_pago " id="boton_producto1" name="n_boton_producto1" onclick="click_bt('boton_producto1')"
+                >Confirmar pago</button>
+            </article>
+        </section>
+        <section class="estilo_div_princi_bot_regresar">
+        <article class="div_estilo_boton_regresar">
+            <button class="estilo_boton_regresar" id="boton_regresar_p1" onclick="click_bt('boton_regresar_p1')"
+            >Volver a inicio</button>
+        </article>
+        </section>
+    </div>
+    <div id="form_producto2" class="form_producto2" style="display: none;" >
+        <section  class="formulario_producto1">
+            <article class="present_prod_2">
+                <img class="imagen_product2_pago" src="imagenes/producto2.PNG" alt="">
+                <p class="t_img_proct">Producto 2</p><br>
+                <p class="parrafo_productos">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                </p>
+            </article>
+            <article class="formulario_pag_p2">
+                <p>Nombre</p>
+                <input type="text">
+                <p>Mail</p><br>
+                <input type="text">
+                <p>Teléfono</p>
+                <input type="text"><br>
+                <button class="estilo_confirmar_pago " id="boton_producto1" name="n_boton_producto1" onclick="click_bt('boton_producto1')"
+                >Confirmar pago</button>
+            </article>
+        </section>
+        <section class="estilo_div_princi_bot_regresar">
+            <article class="div_estilo_boton_regresar">
+                <button class="estilo_boton_regresar" id="boton_regresar_p1" onclick="click_bt('boton_regresar_p1')"
+                >Volver a inicio</button>
+            </article>
+            </section>
+    </div>
+    <!--inicio productos-->
+    <div id="pagina_inicio">
+        <div class="primera_seccion"><br>
+            <p class="titulo_prin">Este es un producto increible, no sé que haces viendo que lo puedes tener</p>
+        </div>
+        <div class="caja_productos">
+            <section class="contenedor_productos" name="n_contenedor_productos" id="contenedor_productos">
+                <article class="producto">
+                    <img class="imagen_product1" src="imagenes/ben1.png" alt="">
+                    <p class="t_img_proct">Producto 1</p><br>
+                    <p class="parrafo_productos">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    </p>
+                    <button class="estilo_loquiero" id="boton_producto1" name="n_boton_producto1" onclick="click_bt('boton_producto1')"
+                     >Lo quiero</button>
+                </article>
+                <article class="producto">
+                    <img class="imagen_product2" src="imagenes/producto2.PNG" alt="">
+                    <p class="t_img_proct">Producto 2</p><br>
+                    <p class="parrafo_productos">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    </p>
+                    <button class="estilo_loquiero" id="boton_producto2" onclick="click_bt('boton_producto2')" >Lo quiero</button>
+                </article>
+            </section>
+        </div>
+        <!--fin productos-->
+        <!--inicio noticias-->
+        <div class="caja_noticias">
+            <section class="contenedor_noticias">
+                <article class="noticia">
+                    <img class="imagen_noti1" src="imagenes/b1.png" alt=""><br>
+                    <p class="t_img_noti">Los más suavecitos</p><br>
+                    <p class="parrafo_noticias">Miles de productos hay en el mercado pero nada como caja con gaticos</p>
+                    <br>
+
+                </article>
+                <article class="noticia">
+                    <img class="imagen_noti2" src="imagenes/b2.png" alt=""><br>
+                    <p class="t_img_noti">Los más incleibles</p><br>
+                    <p class="parrafo_noticias">Miles de productos hay en el mercado pero nada como caja con gaticos</p>
+                    <br>
+                </article>
+                <article class="noticia">
+                    <img class="imagen_noti3" src="imagenes/b3.png" alt=""><br>
+                    <p class="t_img_noti">Los mas confiables</p><br>
+                    <p class="parrafo_noticias">Miles de productos hay en el mercado pero nada como caja con gaticos</p>
+                    <br>
+                </article>
+            </section>
+        </div>
+        <!--fin noticias-->
+        <!--inicio palabra mencion-->
+        <div class="caja_palabra_menciones">
+            <p class="palabra_menciones">Menciones</p>
+        </div>
+        <div class="caja_menciones" id="caja_menciones">
+            <!--fin palabra mencion-->
+            <!--inicio menciones-->
+            <section class="contenedor_menciones">
+                <article class="menciones">
+                    <img class="imagen_men" src="imagenes/p1.png" alt="">
+                    <p class="nombre_men">Mario</p>
+                    <p class="frase_menciones">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    </p>
+                </article>
+                <article class="menciones">
+                    <img class="imagen_men" src="imagenes/p2.png" alt="">
+                    <p class="nombre_men">Maria</p>
+                    <p class="frase_menciones">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    </p>
+                </article>
+                <article class="menciones">
+                    <img class="imagen_men" src="imagenes/p3.png" alt="">
+                    <p class="nombre_men">Joe</pclass="nombre_men">
+                        <p class="frase_menciones">Miles de productos hay en el mercado, pero nada como caja con
+                            gaticos.
+                        </p>
+                </article>
+                <article class="menciones">
+                    <img class="imagen_men" src="imagenes/p4.png" alt="">
+                    <p class="nombre_men">Jamaica</p>
+                    <p class="frase_menciones">Miles de productos hay en el mercado, pero nada como caja con gaticos.
+                    </p>
+                </article>
+            </section>
+        </div>
+    </div>
+    <!--fin menciones-->
+    <script src="script/Javascrip.js"></script>
+    <!--Agregamos contenido para que aparezca la barra vertical del navegador-->
+        <section class="contenido">
+            <p></p>
+        </section>
+    <footer class="footer">
+        <p>Terminos y Condiciones</p>
+        <p>contacto@gmail.com</p>
+    </footer>
+</body>
+
+</html>
